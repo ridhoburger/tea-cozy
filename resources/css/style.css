@@ -1,0 +1,67 @@
+html {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  height: 69px;
+}
+
+#header .logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#header .nav li {
+  display: inline-block;
+  justify-content: flex-end;
+}
+
+#intro {
+  display: flex;
+  justify-content: center;
+}
+
+#content {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+#content img {
+  width: 300px;
+  height: 200px;
+}
+
+#content p {
+  display: flex;
+  justify-content: center;
+}
+
+#location {
+  background-image: url(../../resources/img/img-locations-background.jpg);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+}
+
+#location .loc {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
